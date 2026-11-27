@@ -1,0 +1,40 @@
+data/
+output/
+internal_documentation/
+
+*.xlsx
+*.csv
+*.tsv
+
+src_R/*.html
+*.html
+Rplots.pdf
+.Rhistory
+.Rproj.user/
+
+__pycache__/
+*.pyc
+
+*.err
+*.out
+*.bak_*
+
+.DS_Store
+.vscode/
+
+# Internal working copies, not part of the published pipeline (see README):
+# full-featured duplicates of modules that were pruned down for publication,
+# plus standalone exploratory/duplicate-analysis scripts kept for local use.
+src/*_local.py
+src/validacion_temporal.py
+validacion_temporal_output/
+experiments/
+src_R/survival.rmd
+
+# Synthetic example data IS published, despite the blanket data/-extension
+# rules above (it's not real patient data -- see example_data/README.md).
+!example_data/
+!example_data/**
+
+# Not published
+src/__init__.py
