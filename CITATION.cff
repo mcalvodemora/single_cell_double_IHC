@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "Data-driven pipeline for clinical exploration of single-cell double-IHC"
+type: software
+version: "1.0.0"
+license: MIT
+repository-code: "https://github.com/mcalvodemora/single_cell_double_IHC.git"
+abstract: >-
+  Data-driven workflow for single-cell quantification and unsupervised
+  classification of double chromogenic immunohistochemistry (e.g.GATA6/CK17),
+  including reference-based batch correction, per-TMA normalization,
+  Gaussian mixture model thresholding and core-level heterogeneity metrics.
+keywords:
+  - computational pathology
+  - double immunohistochemistry
+  - single-cell
+  - Gaussian mixture models
+  - batch effect
+authors:
+  - family-names: "Calvo de Mora"
+    given-names: "María"
+    affiliation: "Spanish National Cancer Research Centre (CNIO)"
+    orcid: "https://orcid.org/0009-0000-3995-3763"
+ # Tras la primera release, añade aquí el DOI que asigne Zenodo:
+# doi: "10.5281/zenodo.XXXXXXX"
